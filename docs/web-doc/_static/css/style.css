@@ -1,0 +1,23 @@
+.py.class dd > p:first-child {
+    margin-top: 0.8rem;
+    background-color: #FFFFFF;
+    margin-bottom: 0.9rem;
+    font-weight: bold;
+    margin-left: 0;
+    font-size: 1rem;
+}
+
+.py.class dd > p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    background-color: #F8F9FB;
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+
+.py.class dd > p.rubric {
+    background-color: white; 
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 1rem;
+}
