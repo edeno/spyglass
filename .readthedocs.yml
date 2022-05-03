@@ -10,7 +10,6 @@ sphinx:
   configuration: docs/web-doc/conf.py
   fail_on_warning: false
 
-
 build:
   os: ubuntu-20.04
   tools:
