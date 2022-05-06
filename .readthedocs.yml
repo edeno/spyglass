@@ -25,4 +25,4 @@ build:
 
 conda:
   environment: environment.yml
-  extra_requirements: environment.yml
+  requirements: docs/web-doc/requirements.txt
