@@ -5,6 +5,9 @@
 # Required
 version: 2
 
+conda:
+  environment: environment.yml
+
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
   configuration: docs/web-doc/conf.py
@@ -22,6 +25,3 @@ build:
   os: ubuntu-20.04
   tools:
     python: "3.8"
-
-# conda:
-#   environment: environment.yml
