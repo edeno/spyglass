@@ -5,6 +5,21 @@
 # Required
 version: 2
 
+conda:
+  environment: environment.yml
+
+# build:
+#   os: "ubuntu-20.04"
+#   tools:
+#     python: "mambaforge-4.10"
+
+
+# # This part is necessary otherwise the project is not built
+# python:
+#    install:
+#       - method: pip
+#         path: .
+
 # By default readthedocs does not checkout git submodules
 submodules:                                                                                                                          
     include: all
