@@ -20,6 +20,11 @@ conda:
 #       - method: pip
 #         path: .
 
+python:
+  version: "3.7"
+  install:
+    - requirements: docs/web-doc/requirements.txt
+
 # By default readthedocs does not checkout git submodules
 submodules:                                                                                                                          
     include: all
