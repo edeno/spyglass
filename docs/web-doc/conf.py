@@ -174,3 +174,6 @@ html_static_path = ['_static']
 html_favicon = './images/lorenLabImage.png'
 html_logo = './images/lorenLabImage.png'
 html_sourcelink_suffix = ''
+html_css_files = [
+    'css/datajoint_header.css',
+]
